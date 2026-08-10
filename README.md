@@ -18,7 +18,7 @@
 
 - Lecture room: E3 Rm# 2443 (and through Zoom)
   - a face-to-face lecture on Wednesdays and an online lecture on Mondays (this plan may change later) 
-  - Zoom link for Thurs class: https://kaist.zoom.us/j/5258253316
+  - Zoom link for the online class: https://kaist.zoom.us/j/5258253316
 
 - Recommended prerequisite: CS230 System Programming, proficiency in C/C++ programming and Linux utilities
   - Due to the high load of TA, TA will not provide help for basic C/C++/Linux questions.
