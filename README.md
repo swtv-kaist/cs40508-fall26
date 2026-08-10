@@ -1,8 +1,8 @@
 # KAIST CS40508 Dynamic Analysis of Software Source Code (소프트웨어 소스 코드 기반 동적 분석) Fall'26
 
 ## Announcement
+- Aug 11: This class starts on Sep 2
 
- 
 ## Administrative Information
 
 - Instructor: [Prof. Moonzoo Kim](https://swtv.kaist.ac.kr/members/mzkim)
@@ -17,7 +17,7 @@
 - Lecture hours: Mon/Wed 10:30-11:45   
 
 - Lecture room: E3 Rm# 2443 (and through Zoom)
-  - a face-to-face lecture on Tues and an online lecture on Thurs (this plan may change later) 
+  - a face-to-face lecture on Wednesdays and an online lecture on Mondays (this plan may change later) 
   - Zoom link for Thurs class: https://kaist.zoom.us/j/5258253316
 
 - Recommended prerequisite: CS230 System Programming, proficiency in C/C++ programming and Linux utilities
