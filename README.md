@@ -10,9 +10,9 @@
   - Office: E3-1 Rm# 2434 (located at the east wing of E3-1)
   - Phone: 042-350-3543
   - E-mail: moonzoo.kim @ gmail.com
-  - Office hour: Tues 4:00-5:00 PM (reservation e-mail is preferred)
+  - Office hour: Mon 9:30-10:30 AM (reservation e-mail is preferred)
 
-- Teaching assistants: Jaewoo  Kim (eoaud0108@naver.com) 
+- Teaching assistants: Jaewoo Kim (eoaud0108@naver.com) 
 
 - Lecture hours: Mon/Wed 10:30-11:45   
 
