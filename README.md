@@ -117,7 +117,7 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
 
 - Homework 3: Manual testing of `tcas` utility for MC/DC coverage (logic coverage)
 
-**Oct 19 or 21 : Midterm exam (closed book) **
+** Oct 19 or 21 : Midterm exam (closed book) **
 
 ### Part III:  Code Analysis Framework - Clang and LLVM IR Pass  
 - Oct 26: [Clang tutorial 1/2: Clang AST](3-clang-llvm/lec7-Clang-tutorial-v2.pptx) [[pdf]](3-clang-llvm/lec7-Clang-tutorial-v2.pdf)
@@ -198,5 +198,5 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
 --->
 
 
-**Dec 12th or 16th: Final exam (closed book)** 
+**Dec 14th or 16th: Final exam (closed book)** 
 
