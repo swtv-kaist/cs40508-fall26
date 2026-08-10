@@ -115,61 +115,56 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
   - ["MUSIC: MUtation analySIs tool with high Configurability and extensibility" by Phan et al (Mutation Workshop 18)](https://swtv.kaist.ac.kr/publications/music-mutation18.pdf)
     - [Github repo of MUSIC](https://github.com/swtv-kaist/MUSIC)
 
-- Homework 3: Manual testing of `tcas` utility for MC/DC coverage (logic coverage) 
+- Homework 3: Manual testing of `tcas` utility for MC/DC coverage (logic coverage)
 
-**Oct 12 or 14 : Midterm exam (closed book, NOT including Clang part) 5:30-7:00 pm**
+**Oct 19 or 21 : Midterm exam (closed book) **
 
 ### Part III:  Code Analysis Framework - Clang and LLVM IR Pass  
--  Oct 19: [Clang tutorial 1/2: Clang AST](3-clang-llvm/lec7-Clang-tutorial-v2.pptx) [[pdf]](3-clang-llvm/lec7-Clang-tutorial-v2.pdf)
+- Oct 26: [Clang tutorial 1/2: Clang AST](3-clang-llvm/lec7-Clang-tutorial-v2.pptx) [[pdf]](3-clang-llvm/lec7-Clang-tutorial-v2.pdf)
    - [clang_example.c](https://github.com/swtv-kaist/cs458-spring23/blob/main/2-coverage/code/clang/clang_example.c)
 
-- Apr 8: [Clang tutorial 2/2: a program analysis tool by using Clang](3-clang-llvm/lec8-building-Clang-analyzer-v3.pptx) [[pdf]](3-clang-llvm/lec8-building-Clang-analyzer-v3.pdf)
+- Oct 28: [Clang tutorial 2/2: a program analysis tool by using Clang](3-clang-llvm/lec8-building-Clang-analyzer-v3.pptx) [[pdf]](3-clang-llvm/lec8-building-Clang-analyzer-v3.pdf)
   - [PrintFunction.cpp](https://github.com/swtv-kaist/cs458-spring23/blob/main/2-coverage/code/clang/PrintFunction.cpp)
   - [Branch-identify-template.zip](https://github.com/swtv-kaist/cs458-spring23/blob/main/3-clang-llvm/code/clang/kcov-branch-template-llvm19.zip)
   - [Document for useful clang APIs](https://3-24.github.io/cs458-manual/docs/clang-inst/)
 
-- Apr 10: Q&A for midterm exam
-
 - Homework 4: kcov coverage tool (Clang) 
 
-
-
-
-- Apr 22: [LLVM IR](3-clang-llvm/lec12-llvm-ir-v4.pptx) [[pdf]](3-clang-llvm/lec12-llvm-ir-v4.pdf)
+- Nov 2: [LLVM IR](3-clang-llvm/lec12-llvm-ir-v4.pptx) [[pdf]](3-clang-llvm/lec12-llvm-ir-v4.pdf)
   - [LLVM Language Reference Manual](https://llvm.org/docs/LangRef.html)
 
-- Apr 24, 29: [LLVM pass](3-clang-llvm/lec13-llvm-pass-v3.pptx) [[pdf]](3-clang-llvm/lec13-llvm-pass-v3.pdf), [Clang vs LLVM IR](3-clang-llvm/lec14-clang-vs-llvm.pptx) [[pdf]](3-clang-llvm/lec14-clang-vs-llvm.pdf)
+- Nov 4, 9: [LLVM pass](3-clang-llvm/lec13-llvm-pass-v3.pptx) [[pdf]](3-clang-llvm/lec13-llvm-pass-v3.pdf), [Clang vs LLVM IR](3-clang-llvm/lec14-clang-vs-llvm.pptx) [[pdf]](3-clang-llvm/lec14-clang-vs-llvm.pdf)
   - [Template code for LLVM pass (including a complete intwrite example)](3-clang-llvm/code/llvm/kcov-llvm.tar.gz)
 
 - Homework 5: kcov coverage tool (LLVM IR)  
 
-- May 1: [Automated Bug Detection through Static Analysis](3-clang-llvm/lec15-coverity-v2.pptx) [[pdf]](3-clang-llvm/lec15-coverity-v2.pdf)
+- Nov 11: [Automated Bug Detection through Static Analysis](3-clang-llvm/lec15-coverity-v2.pptx) [[pdf]](3-clang-llvm/lec15-coverity-v2.pdf)
 
 ### Part IV: Automated Test Generation: Fuzzing 
-- May 8: [Modern fuzzing technique overview (i.e., coverage-guided automated greybox testing)](4-fuzzing/lec41-intro-to-afl++-v2.pptx) [[pdf]](4-fuzzing/lec41-intro-to-afl++-v2.pdf) 
+- Nov 16: [Modern fuzzing technique overview (i.e., coverage-guided automated greybox testing)](4-fuzzing/lec41-intro-to-afl++-v2.pptx) [[pdf]](4-fuzzing/lec41-intro-to-afl++-v2.pdf) 
   - [The fuzzing book online class](https://www.fuzzingbook.org/)
   - [OSS Fuzz](https://github.com/google/oss-fuzz)
   
-- May 13: [AFL++ (american fuzzy lop) fuzzer tutorial](4-fuzzing/lec42-fuzzing_with_afl++-v3.pptx) [[pdf]](4-fuzzing/lec42-fuzzing_with_afl++-v3.pdf)
+- Nov 18: [AFL++ (american fuzzy lop) fuzzer tutorial](4-fuzzing/lec42-fuzzing_with_afl++-v3.pptx) [[pdf]](4-fuzzing/lec42-fuzzing_with_afl++-v3.pdf)
   - [AFL++](https://github.com/AFLplusplus/AFLplusplus)
   - [AFL++ document](https://github.com/AFLplusplus/AFLplusplus/tree/stable/docs)
 
 <!-- - May 14 : [Advanced Issues on Fuzzing](4-fuzzing/lec40-greybox-fuzzing-v4.pptx) [[pdf]](4-fuzzing/lec42-fuzzing_with_afl++-v4.pdf) -->
 
-- May 15: [Case study of Fuzzing Application: POWERUP fuzzer](4-fuzzing/lec43-powerup_ICST_2023-v2.pptx) [[pdf]](4-fuzzing/lec43-powerup_ICST_2023-v2.pdf)
+- Nov 23: [Case study of Fuzzing Application: POWERUP fuzzer](4-fuzzing/lec43-powerup_ICST_2023-v2.pptx) [[pdf]](4-fuzzing/lec43-powerup_ICST_2023-v2.pdf)
 
 - Homework 6: Automated testing of grep by applying AFL++ 
 
 ### Part V: Automated Test Generation: Concolic Testing (aka., Dynamic Symbolic Execution))
-- May 20: [Automated SW analysis for high reliability: a Concolic testing approach](5-concolic-testing/lec31-concolic-v6.pptx) [[pdf]](5-concolic-testing/lec31-concolic-v6.pdf)
+- Nov 25: [Automated SW analysis for high reliability: a Concolic testing approach](5-concolic-testing/lec31-concolic-v6.pptx) [[pdf]](5-concolic-testing/lec31-concolic-v6.pdf)
   - [Industrial Application of Concolic Testing on Embedded Software: Case Studies [ICSE'12 paper]](5-concolic-testing/icst-2012-slp-busybox-ls.pdf)
   <!--- [lec31-concolic-video-part2.mp4](https://drive.google.com/file/d/1XC68_O88FTVCQN_CZs4g0DM6O0OF8xyQ/view?usp=sharing)
   --->
 
-- May 22: [CROWN tutorial](5-concolic-testing/lec32-crown_tutorial-v3.pptx) [[pdf]](5-concolic-testing/lec32-crown_tutorial-v3.pdf)
+- Nov 30: [CROWN tutorial](5-concolic-testing/lec32-crown_tutorial-v3.pptx) [[pdf]](5-concolic-testing/lec32-crown_tutorial-v3.pdf)
   - [tutorial-examples](5-concolic-testing/code/tutorial-examples.zip)
 
-- May 27: [CROWN Examples](5-concolic-testing/lec33-crown-Examples-v2.pptx) [[pdf]](5-concolic-testing/lec33-crown-Examples-v2.pdf),  [Example: Concolic testing a circular queue](5-concolic-testing/lec34-sym-exec-examples-v2.pptx)  [[pdf]](5-concolic-testing/lec34-sym-exec-examples-v2.pdf)
+- Dec 2: [CROWN Examples](5-concolic-testing/lec33-crown-Examples-v2.pptx) [[pdf]](5-concolic-testing/lec33-crown-Examples-v2.pdf),  [Example: Concolic testing a circular queue](5-concolic-testing/lec34-sym-exec-examples-v2.pptx)  [[pdf]](5-concolic-testing/lec34-sym-exec-examples-v2.pdf)
   - [crown_examples.zip](5-concolic-testing/code/crown_examples.zip)
 
 
@@ -180,7 +175,7 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
   - [CS402 Intro to Logic (Predicate Calculus - Semantics)](https://swtv.kaist.ac.kr/courses/CS402-2013)
 --->
 
-- May 29: [System-level concolic testing: Busybox application examples through CROWN](5-concolic-testing/lec35-printf-grep-vi-system-testing-v3.pptx) [[pdf]](5-concolic-testing/lec35-printf-grep-vi-system-testing-v3.pdf)
+- Dec  7: [System-level concolic testing: Busybox application examples through CROWN](5-concolic-testing/lec35-printf-grep-vi-system-testing-v3.pptx) [[pdf]](5-concolic-testing/lec35-printf-grep-vi-system-testing-v3.pdf)
 
 
 [Automated unit testing](5-concolic-testing/lec36.automated_unit_testing-v2.pptx) 
@@ -188,17 +183,11 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
 
 - Homework 7: Automated testing of TCAS by applying CROWN 
 
-- June 3: No class due to the president election
-
-- June 5: [Unit-level concolic testing: Busybox ls example](5-concolic-testing/lec37-ls-unit-testing-v4.pptx) [[pdf]](5-concolic-testing/lec37-ls-unit-testing-v4.pdf)
+- Dec 9: [Unit-level concolic testing: Busybox ls example](5-concolic-testing/lec37-ls-unit-testing-v4.pptx) [[pdf]](5-concolic-testing/lec37-ls-unit-testing-v4.pdf)
 
   - [Automated Unit Testing of Large Industrial Embedded Software using Concolic Testing](5-concolic-testing/lec38-conbol.pptx) [[pdf]](5-concolic-testing/lec38-conbol.pdf)  [ASE'13 paper] [[Movie (40 min)]](https://drive.google.com/file/d/10DaVUtSZGJiHhHKe-abez7C3XuFQxoBx/view?usp=share_link)
   
   - [Concolic Testing for High Test Coverage and Reduced Human Effort in Automotive Industry](5-concolic-testing/lec39-ICSE19-MAIST-rev18.pptx) [[pdf]](5-concolic-testing/lec39-ICSE19-MAIST-rev18.pdf)  [ICSE'19 paper] [[Movie (35min)]](https://drive.google.com/file/d/1G2j92qvfJBkPvIiBIklYE2EWjadEYIiW/view?usp=share_link)
-
-
-  
-
 
 
 <!---
@@ -209,5 +198,5 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
 --->
 
 
-- **June 12th : Final exam (closed book) 5:30-7:00 pm** 
+**Dec 12th or 16th: Final exam (closed book)** 
 
