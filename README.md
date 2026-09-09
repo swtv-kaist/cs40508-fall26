@@ -12,7 +12,7 @@
   - E-mail: moonzoo.kim @ gmail.com
   - Office hour: Mon 9:30-10:30 AM (reservation e-mail is preferred)
 
-- Teaching assistants: Jaewoo Kim (eoaud0108@naver.com) 
+- Teaching assistants: Jaewoo Kim (eoaud0108@kaist.ac.kr) 
 
 - Lecture hours: Mon/Wed 10:30-11:45 AM  
 
