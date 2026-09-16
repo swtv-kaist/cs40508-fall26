@@ -54,22 +54,22 @@ int main(int argc, char *argv[]) {
     ```
     $ llvm-cov-20 show ./example -instr-profile=total-runs.profdata --show-mcdc
     ```
-    * screenshot result: 
-        ![image1](./assets/terminal-mcdc-coverage-report-ex.png)
+    * screenshot result:
+        <img src="./assets/terminal-mcdc-coverage-report-ex.png" width="500">
 
 2. **coverage percentage report to terminal**: use ``llvm-cov-20`` to report MC/DC coverage percentage in terminal:
     ```
     $ llvm-cov-20 report ./example -instr-profile=total-runs.profdata --show-mcdc-summary
     ```
     * screenshot result:
-        ![image2](./assets/terminal-mcdc-coverage-ex.png)
+        <img src="./assets/terminal-mcdc-coverage-ex.png" width="1200">
 
 3. **output to html file**: use ``llvm-cov-20`` to report MC/DC coverage in html form:
     ```
     $ llvm-cov-20 show --show-mcdc ./example -instr-profile=total-runs.profdata -format=html > coverage.html
     ```
     * screenshot result:
-        ![image3](./assets/html-mcdc-coverage-report-ex.png)
+        <img src="./assets/html-mcdc-coverage-report-ex.png" width="500">
 
 
 ## Region coverage explained.
