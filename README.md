@@ -44,6 +44,8 @@
   - You can see the Q&A of the previous year's CS458 class
     - https://github.com/swtv-kaist/cs458-spring24/issues
     - https://github.com/swtv-kaist/cs458-spring25/issues
+      
+- Textbook: [Introduction to Software Testing 2nd ed by P. Ammann and J. Offutt](https://www.amazon.com/-/ko/dp-1107172012/dp/1107172012/ref=dp_ob_image_bk)
 
 - Excerpts from 강의평가 (4.93 out of 5 in Spring 23)
     
