@@ -45,26 +45,26 @@ int main(int argc, char *argv[]) {
 
 * merge all ``run<cnt>.profraw`` raw files to a ``total-runs.profdata`` file to accumulate all past run coverages:
     ```
-    $ llvm-profdata-20 merge run1.profraw run2.profraw run3.profraw run4.profraw -o total-runs.profdata
+    $ llvm-profdata merge run1.profraw run2.profraw run3.profraw run4.profraw -o total-runs.profdata
     ```
     * result: confirm that ``total-runs.profdata`` file has been succesfully generated
 
 ## Step4: Generate coverage report
-1. **output to terminal**: use ``llvm-cov-20`` to show MC/DC coverage in terminal:
+1. **output to terminal**: use ``llvm-cov`` to show MC/DC coverage in terminal:
     ```
     $ llvm-cov show ./example -instr-profile=total-runs.profdata --show-mcdc
     ```
     * screenshot result:
         <img src="./assets/terminal-mcdc-coverage-report-ex.png" width="500">
 
-2. **coverage percentage report to terminal**: use ``llvm-cov-20`` to report MC/DC coverage percentage in terminal:
+2. **coverage percentage report to terminal**: use ``llvm-cov`` to report MC/DC coverage percentage in terminal:
     ```
     $ llvm-cov report ./example -instr-profile=total-runs.profdata --show-mcdc-summary
     ```
     * screenshot result:
         <img src="./assets/terminal-mcdc-coverage-ex.png" width="1200">
 
-3. **output to html file**: use ``llvm-cov-20`` to report MC/DC coverage in html form:
+3. **output to html file**: use ``llvm-cov`` to report MC/DC coverage in html form:
     ```
     $ llvm-cov show --show-mcdc ./example -instr-profile=total-runs.profdata -format=html > coverage.html
     ```
