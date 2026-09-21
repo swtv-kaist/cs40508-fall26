@@ -52,21 +52,21 @@ int main(int argc, char *argv[]) {
 ## Step4: Generate coverage report
 1. **output to terminal**: use ``llvm-cov-20`` to show MC/DC coverage in terminal:
     ```
-    $ llvm-cov-20 show ./example -instr-profile=total-runs.profdata --show-mcdc
+    $ llvm-cov show ./example -instr-profile=total-runs.profdata --show-mcdc
     ```
     * screenshot result:
         <img src="./assets/terminal-mcdc-coverage-report-ex.png" width="500">
 
 2. **coverage percentage report to terminal**: use ``llvm-cov-20`` to report MC/DC coverage percentage in terminal:
     ```
-    $ llvm-cov-20 report ./example -instr-profile=total-runs.profdata --show-mcdc-summary
+    $ llvm-cov report ./example -instr-profile=total-runs.profdata --show-mcdc-summary
     ```
     * screenshot result:
         <img src="./assets/terminal-mcdc-coverage-ex.png" width="1200">
 
 3. **output to html file**: use ``llvm-cov-20`` to report MC/DC coverage in html form:
     ```
-    $ llvm-cov-20 show --show-mcdc ./example -instr-profile=total-runs.profdata -format=html > coverage.html
+    $ llvm-cov show --show-mcdc ./example -instr-profile=total-runs.profdata -format=html > coverage.html
     ```
     * screenshot result:
         <img src="./assets/html-mcdc-coverage-report-ex.png" width="500">
