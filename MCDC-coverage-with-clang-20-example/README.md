@@ -1,4 +1,4 @@
-# How to Measure MCDC coverage with clang-20
+# How to Measure MCDC coverage with clang
 
 ## Simple Example Code ``example.c``
 ```
@@ -20,10 +20,10 @@ int main(int argc, char *argv[]) {
 }
 ```
 
-## Step1: Compile source file with clang-20 and coverage options
+## Step1: Compile source file with clang and coverage options
 * command:
     ```
-    $ clang-20 -fprofile-instr-generate -fcoverage-mapping -fcoverage-mcdc example.c -o example
+    $ clang -fprofile-instr-generate -fcoverage-mapping -fcoverage-mcdc example.c -o example
     ```
     * result: confirm that executable file, ``example`` is succesfully generated
 
