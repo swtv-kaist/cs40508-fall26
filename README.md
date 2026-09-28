@@ -32,7 +32,7 @@
   - The official language in the class is English. All students should submit all written documents such as homework, project reports, exam, etc. in English; 20% penalty of the max score otherwise.  
 
 - Homework:
-  - Homework should be submitted through KLMS [https://klms.kaist.ac.kr/course/view.php?id=165485](https://klms.kaist.ac.kr/course/view.php?id=188561)
+  - Homework should be submitted through KLMS [https://klms.kaist.ac.kr/course/view.php?id=188561](https://klms.kaist.ac.kr/course/view.php?id=188561)
     - Hint: many questions of exams are from the homeworks.
   - Late HW will be accepted with 10% penalty of the max score in 1 day, 30% penalty of the max score in 3 days. HW will not be accepted after then.
   - All programming HWs you submit must be able to be replayed by executing a single script file on a TA's server account (i.e., submitted HW should not have a dependency on your home directory, environment, etc.).  Also, the replayed execution must demonstrate the same output to the submitted hw. You will get 10% penalty of the max score otherwise.
@@ -123,19 +123,18 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
 
 ### Part III:  Code Analysis Framework - Clang and LLVM IR Pass  
 - Oct 26: [Clang tutorial 1/2: Clang AST](3-clang-llvm/lec7-Clang-tutorial-v2.pptx) [[pdf]](3-clang-llvm/lec7-Clang-tutorial-v2.pdf)
-   - [clang_example.c](https://github.com/swtv-kaist/cs458-spring23/blob/main/2-coverage/code/clang/clang_example.c)
+   - [clang_example.c](2-coverage/code/clang/clang_example.c)
 
 - Oct 28: [Clang tutorial 2/2: a program analysis tool by using Clang](3-clang-llvm/lec8-building-Clang-analyzer-v3.pptx) [[pdf]](3-clang-llvm/lec8-building-Clang-analyzer-v3.pdf)
-  - [PrintFunction.cpp](https://github.com/swtv-kaist/cs458-spring23/blob/main/2-coverage/code/clang/PrintFunction.cpp)
-  - [Branch-identify-template.zip](https://github.com/swtv-kaist/cs458-spring23/blob/main/3-clang-llvm/code/clang/kcov-branch-template-llvm19.zip)
-  - [Document for useful clang APIs](https://3-24.github.io/cs458-manual/docs/clang-inst/)
+  - [PrintFunction.cpp](2-coverage/code/clang/PrintFunction.cpp)
+  - [Branch-identify-template.zip](3-clang-llvm/code/clang/kcov-branch-template.zip)
 
 - Homework 4: kcov coverage tool (Clang) 
 
-- Nov 2: [LLVM IR](3-clang-llvm/lec12-llvm-ir-v4.pptx) [[pdf]](3-clang-llvm/lec12-llvm-ir-v4.pdf)
+- Nov 2: [LLVM IR](3-clang-llvm/lec12-llvm-ir-v5.pptx) [[pdf]](3-clang-llvm/lec12-llvm-ir-v5.pdf)
   - [LLVM Language Reference Manual](https://llvm.org/docs/LangRef.html)
 
-- Nov 4, 9: [LLVM pass](3-clang-llvm/lec13-llvm-pass-v3.pptx) [[pdf]](3-clang-llvm/lec13-llvm-pass-v3.pdf), [Clang vs LLVM IR](3-clang-llvm/lec14-clang-vs-llvm.pptx) [[pdf]](3-clang-llvm/lec14-clang-vs-llvm.pdf)
+- Nov 4, 9: [LLVM pass](3-clang-llvm/lec13-llvm-pass-v4.pptx) [[pdf]](3-clang-llvm/lec13-llvm-pass-v4.pdf), [Clang vs LLVM IR](3-clang-llvm/lec14-clang-vs-llvm-v2.pptx) [[pdf]](3-clang-llvm/lec14-clang-vs-llvm-v2.pdf)
   - [Template code for LLVM pass (including a complete intwrite example)](3-clang-llvm/code/llvm/kcov-llvm.tar.gz)
 
 - Homework 5: kcov coverage tool (LLVM IR)  
