@@ -107,9 +107,10 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
 - Sep 28, 30: [Logic coverage](2-coverage/lec9-Logic-covearge-v3.pptx) [[pdf]](2-coverage/lec9-Logic-covearge-v3.pdf)
   - [Example](2-coverage/lec9.5-ACC-ICC-example.pptx) [[pdf]](2-coverage/lec9.5-ACC-ICC-example.pdf)
 
-- Homework 2: Manual testing of `grep` utility for branch coverage (graph coverage) 
 
 - Oct 7:  [Logic coverage from source code](2-coverage/lec10-logic-covearge-code-v3.pptx) [[pdf]](2-coverage/lec10-logic-covearge-code-v3.pdf)
+
+- [Homework 2: Manual testing of `grep` utility for branch coverage (due Oct 14]()
 
 - Oct 12, 14: [Mutation testing](2-coverage/lec11-mutation-testing-v2.pptx) [[pdf]](2-coverage/lec11-mutation-testing-v2.pdf) 
   - Lecture movie files ([mutation-testing-part1.mp4](https://drive.google.com/file/d/1rz3hbq5YcpU1Jd9yB9RtstTUWiP2XIVG/view?usp=drive_link), [mutation-testing-part2.mp4](https://drive.google.com/file/d/1YsjjrTe8HpCu7seP8MYlwpm9f7CrwwO1/view?usp=drive_link))
