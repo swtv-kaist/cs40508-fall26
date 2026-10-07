@@ -1,6 +1,7 @@
 # KAIST CS40508 Dynamic Analysis of Software Source Code (소프트웨어 소스 코드 기반 동적 분석) Fall'26
 
 ## Announcement
+- Oct 7: We will have a midterm exam on Oct 28. Instead, we will have classes on Oct 21 during the midterm week. 
 - Oct 7: Your machine accounts are available. Please look at [the announcement](https://klms.kaist.ac.kr/mod/courseboard/article.php?id=1260945&bwid=444994) in KLMS.
 - Aug 11: This class starts on Sep 2
 
@@ -118,24 +119,27 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
   - ["MUSIC: MUtation analySIs tool with high Configurability and extensibility" by Phan et al (Mutation Workshop 18)](https://swtv.kaist.ac.kr/publications/music-mutation18.pdf)
     - [Github repo of MUSIC](https://github.com/swtv-kaist/MUSIC)
 
-- Homework 3: Manual testing of `tcas` utility for MC/DC coverage (due Oct 23)
-
-**Oct 21 (Wed) 10:30-11:45 : Midterm exam (closed book)**
+- Homework 3: Manual testing of `tcas` utility for MC/DC coverage (due Oct 21)
 
 ### Part III:  Code Analysis Framework - Clang and LLVM IR Pass  
 - Oct 12: [Clang tutorial 1/2: Clang AST](3-clang-llvm/lec7-Clang-tutorial-v2.pptx) [[pdf]](3-clang-llvm/lec7-Clang-tutorial-v2.pdf)
    - [clang_example.c](2-coverage/code/clang/clang_example.c)
 
-- Oct 14: Q & A for the midterm exam
 
-- Oct 26, 28: [Clang tutorial 2/2: a program analysis tool by using Clang](3-clang-llvm/lec8-building-Clang-analyzer-v3.pptx) [[pdf]](3-clang-llvm/lec8-building-Clang-analyzer-v3.pdf)
+- Oct 14, 21: [Clang tutorial 2/2: a program analysis tool by using Clang](3-clang-llvm/lec8-building-Clang-analyzer-v3.pptx) [[pdf]](3-clang-llvm/lec8-building-Clang-analyzer-v3.pdf)
   - [PrintFunction.cpp](2-coverage/code/clang/PrintFunction.cpp)
   - [Branch-identify-template.zip](3-clang-llvm/code/clang/kcov-branch-template.zip)
 
-- Homework 4: kcov coverage tool (Clang) 
+- Homework 4: kcov coverage tool by using Clang (due Oct 25)
+
+- Oct 26: Q & A for the midterm exam
+
+**Oct 28 (Wed) 10:30-11:45 : Midterm exam (closed book)**
 
 - Nov 2: [LLVM IR](3-clang-llvm/lec12-llvm-ir-v5.pptx) [[pdf]](3-clang-llvm/lec12-llvm-ir-v5.pdf)
   - [LLVM Language Reference Manual](https://llvm.org/docs/LangRef.html)
+ 
+
 
 - Nov 4, 9: [LLVM pass](3-clang-llvm/lec13-llvm-pass-v4.pptx) [[pdf]](3-clang-llvm/lec13-llvm-pass-v4.pdf), [Clang vs LLVM IR](3-clang-llvm/lec14-clang-vs-llvm-v2.pptx) [[pdf]](3-clang-llvm/lec14-clang-vs-llvm-v2.pdf)
   - [Template code for LLVM pass (including a complete intwrite example)](3-clang-llvm/code/llvm/intwrite_llvm.tar.gz)
