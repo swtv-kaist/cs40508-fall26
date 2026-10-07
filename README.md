@@ -104,29 +104,30 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
    - [gcc manual](https://gcc.gnu.org/onlinedocs/gcc/Option-Summary.html), [gcov manual](https://gcc.gnu.org/onlinedocs/gcc/Gcov.html)
      
 
-- Sep 28, 30: [Logic coverage](2-coverage/lec9-Logic-covearge-v3.pptx) [[pdf]](2-coverage/lec9-Logic-covearge-v3.pdf)
+- Sep 28: [Logic coverage](2-coverage/lec9-Logic-covearge-v3.pptx) [[pdf]](2-coverage/lec9-Logic-covearge-v3.pdf)
   - [Example](2-coverage/lec9.5-ACC-ICC-example.pptx) [[pdf]](2-coverage/lec9.5-ACC-ICC-example.pdf)
 
+- Sep 30:  [Logic coverage from source code](2-coverage/lec10-logic-covearge-code-v3.pptx) [[pdf]](2-coverage/lec10-logic-covearge-code-v3.pdf)
 
-- Oct 7:  [Logic coverage from source code](2-coverage/lec10-logic-covearge-code-v3.pptx) [[pdf]](2-coverage/lec10-logic-covearge-code-v3.pdf)
+- [Homework 2: Manual testing of `grep` utility for branch coverage (due Oct 14)](https://klms.kaist.ac.kr/mod/assign/view.php?id=1295744)
 
-- [Homework 2: Manual testing of `grep` utility for branch coverage (due Oct 14]()
-
-- Oct 12, 14: [Mutation testing](2-coverage/lec11-mutation-testing-v2.pptx) [[pdf]](2-coverage/lec11-mutation-testing-v2.pdf) 
+- Oct 7: [Mutation testing](2-coverage/lec11-mutation-testing-v2.pptx) [[pdf]](2-coverage/lec11-mutation-testing-v2.pdf) 
   - Lecture movie files ([mutation-testing-part1.mp4](https://drive.google.com/file/d/1rz3hbq5YcpU1Jd9yB9RtstTUWiP2XIVG/view?usp=drive_link), [mutation-testing-part2.mp4](https://drive.google.com/file/d/1YsjjrTe8HpCu7seP8MYlwpm9f7CrwwO1/view?usp=drive_link))
   - ["Design Of Mutant Operators For The C Programming Language" by Agrawal et al](2-coverage/mutop-design-harness.pdf)
   - ["MUSIC: MUtation analySIs tool with high Configurability and extensibility" by Phan et al (Mutation Workshop 18)](https://swtv.kaist.ac.kr/publications/music-mutation18.pdf)
     - [Github repo of MUSIC](https://github.com/swtv-kaist/MUSIC)
 
-- Homework 3: Manual testing of `tcas` utility for MC/DC coverage (logic coverage)
+- Homework 3: Manual testing of `tcas` utility for MC/DC coverage (due Oct 23)
 
 **Oct 21 (Wed) 10:30-11:45 : Midterm exam (closed book)**
 
 ### Part III:  Code Analysis Framework - Clang and LLVM IR Pass  
-- Oct 26: [Clang tutorial 1/2: Clang AST](3-clang-llvm/lec7-Clang-tutorial-v2.pptx) [[pdf]](3-clang-llvm/lec7-Clang-tutorial-v2.pdf)
+- Oct 12: [Clang tutorial 1/2: Clang AST](3-clang-llvm/lec7-Clang-tutorial-v2.pptx) [[pdf]](3-clang-llvm/lec7-Clang-tutorial-v2.pdf)
    - [clang_example.c](2-coverage/code/clang/clang_example.c)
 
-- Oct 28: [Clang tutorial 2/2: a program analysis tool by using Clang](3-clang-llvm/lec8-building-Clang-analyzer-v3.pptx) [[pdf]](3-clang-llvm/lec8-building-Clang-analyzer-v3.pdf)
+- Oct 14: Q & A for the midterm exam
+
+- Oct 26, 28: [Clang tutorial 2/2: a program analysis tool by using Clang](3-clang-llvm/lec8-building-Clang-analyzer-v3.pptx) [[pdf]](3-clang-llvm/lec8-building-Clang-analyzer-v3.pdf)
   - [PrintFunction.cpp](2-coverage/code/clang/PrintFunction.cpp)
   - [Branch-identify-template.zip](3-clang-llvm/code/clang/kcov-branch-template.zip)
 
@@ -199,5 +200,5 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
   - The SuDoku Puzzle as a Satisfiability Problem
 --->
 
-**Dec 14th or 16th: Final exam (closed book)** 
+**Dec 16th: Final exam (closed book)** 
 
