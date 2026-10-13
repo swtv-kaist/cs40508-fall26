@@ -120,7 +120,7 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
   - ["MUSIC: MUtation analySIs tool with high Configurability and extensibility" by Phan et al (Mutation Workshop 18)](https://swtv.kaist.ac.kr/publications/music-mutation18.pdf)
     - [Github repo of MUSIC](https://github.com/swtv-kaist/MUSIC)
 
-- Homework 3: Manual testing of `tcas` utility for MC/DC coverage (due Oct 21)
+<!--- - Homework 3: Manual testing of `tcas` utility for MC/DC coverage (due Oct 21) --->
 
 ### Part III:  Code Analysis Framework - Clang and LLVM IR Pass  
 - Oct 12: [Clang tutorial 1/2: Clang AST](3-clang-llvm/lec7-Clang-tutorial-v2.pptx) [[pdf]](3-clang-llvm/lec7-Clang-tutorial-v2.pdf)
@@ -131,7 +131,7 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
   - [PrintFunction.cpp](2-coverage/code/clang/PrintFunction.cpp)
   - [Branch-identify-template.zip](3-clang-llvm/code/clang/kcov-branch-template.zip)
 
-- Homework 4: kcov coverage tool by using Clang (due Oct 25)
+- [Homework 3: kcov coverage tool by using Clang (due Oct 25)](https://klms.kaist.ac.kr/mod/assign/view.php?id=1297874)
 
 - Oct 26: Q & A for the midterm exam
 
