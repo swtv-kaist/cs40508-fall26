@@ -127,30 +127,28 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
    - [clang_example.c](2-coverage/code/clang/clang_example.c)
 
 
-- Oct 14, 21: [Clang tutorial 2/2: a program analysis tool by using Clang](3-clang-llvm/lec8-building-Clang-analyzer-v4.pptx) [[pdf]](3-clang-llvm/lec8-building-Clang-analyzer-v4.pdf)
+- Oct 14: [Clang tutorial 2/2: a program analysis tool by using Clang](3-clang-llvm/lec8-building-Clang-analyzer-v4.pptx) [[pdf]](3-clang-llvm/lec8-building-Clang-analyzer-v4.pdf)
   - [PrintFunction.cpp](2-coverage/code/clang/PrintFunction.cpp)
   - [Branch-identify-template.zip](3-clang-llvm/code/clang/kcov-branch-template.zip)
 
 - [Homework 3: kcov coverage tool by using Clang (due Oct 25)](https://klms.kaist.ac.kr/mod/assign/view.php?id=1297874)
 
+- Oct 21: [LLVM IR](3-clang-llvm/lec12-llvm-ir-v5.pptx) [[pdf]](3-clang-llvm/lec12-llvm-ir-v5.pdf)
+  - [LLVM Language Reference Manual](https://llvm.org/docs/LangRef.html)
+    
 - Oct 26: Q & A for the midterm exam
 
 - **Oct 28 (Wed) 10:30-11:45 : Midterm exam (closed book)**
 
-- Nov 2: [LLVM IR](3-clang-llvm/lec12-llvm-ir-v5.pptx) [[pdf]](3-clang-llvm/lec12-llvm-ir-v5.pdf)
-  - [LLVM Language Reference Manual](https://llvm.org/docs/LangRef.html)
- 
-
-
-- Nov 4, 9: [LLVM pass](3-clang-llvm/lec13-llvm-pass-v4.pptx) [[pdf]](3-clang-llvm/lec13-llvm-pass-v4.pdf), [Clang vs LLVM IR](3-clang-llvm/lec14-clang-vs-llvm-v2.pptx) [[pdf]](3-clang-llvm/lec14-clang-vs-llvm-v2.pdf)
+- Nov 2, 4: [LLVM pass](3-clang-llvm/lec13-llvm-pass-v4.pptx) [[pdf]](3-clang-llvm/lec13-llvm-pass-v4.pdf), [Clang vs LLVM IR](3-clang-llvm/lec14-clang-vs-llvm-v2.pptx) [[pdf]](3-clang-llvm/lec14-clang-vs-llvm-v2.pdf)
   - [Template code for LLVM pass (including a complete intwrite example)](3-clang-llvm/code/llvm/intwrite_llvm.tar.gz)
 
 - Homework 5: kcov coverage tool (LLVM IR)  
 
-- Nov 11: [Automated Bug Detection through Static Analysis](3-clang-llvm/lec15-coverity-v2.pptx) [[pdf]](3-clang-llvm/lec15-coverity-v2.pdf)
+- Nov 9: [Automated Bug Detection through Static Analysis](3-clang-llvm/lec15-coverity-v2.pptx) [[pdf]](3-clang-llvm/lec15-coverity-v2.pdf)
 
 ### Part IV: Automated Test Generation: Fuzzing 
-- Nov 16: [Modern fuzzing technique overview (i.e., coverage-guided automated greybox testing)](4-fuzzing/lec41-intro-to-afl++-v2.pptx) [[pdf]](4-fuzzing/lec41-intro-to-afl++-v2.pdf) 
+- Nov 11, 16: [Modern fuzzing technique overview (i.e., coverage-guided automated greybox testing)](4-fuzzing/lec41-intro-to-afl++-v2.pptx) [[pdf]](4-fuzzing/lec41-intro-to-afl++-v2.pdf) 
   - [The fuzzing book online class](https://www.fuzzingbook.org/)
   - [OSS Fuzz](https://github.com/google/oss-fuzz)
   
