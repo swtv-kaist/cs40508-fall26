@@ -133,7 +133,7 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
 
 - [Homework 3: kcov coverage tool by using Clang (due Oct 25)](https://klms.kaist.ac.kr/mod/assign/view.php?id=1297874)
 
-- Oct 21: [LLVM IR](3-clang-llvm/lec12-llvm-ir-v5.pptx) [[pdf]](3-clang-llvm/lec12-llvm-ir-v5.pdf)
+- Oct 21, 26: [LLVM IR](3-clang-llvm/lec12-llvm-ir-v5.pptx) [[pdf]](3-clang-llvm/lec12-llvm-ir-v5.pdf)
   - [LLVM Language Reference Manual](https://llvm.org/docs/LangRef.html)
     
 - Oct 26: Q & A for the midterm exam
