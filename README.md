@@ -143,7 +143,7 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
 - Nov 2, 4: [LLVM pass](3-clang-llvm/lec13-llvm-pass-v4.pptx) [[pdf]](3-clang-llvm/lec13-llvm-pass-v4.pdf), [Clang vs LLVM IR](3-clang-llvm/lec14-clang-vs-llvm-v2.pptx) [[pdf]](3-clang-llvm/lec14-clang-vs-llvm-v2.pdf)
   - [Template code for LLVM pass (including a complete intwrite example)](3-clang-llvm/code/llvm/intwrite_llvm.tar.gz)
 
-- Homework 5: kcov coverage tool (LLVM IR)  
+- Homework 4: kcov coverage tool for LLVM IR (due Nov 12)
 
 - Nov 9: [Automated Bug Detection through Static Analysis](3-clang-llvm/lec15-coverity-v2.pptx) [[pdf]](3-clang-llvm/lec15-coverity-v2.pdf)
 
@@ -160,7 +160,7 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
 
 - Nov 23: [Case study of Fuzzing Application: POWERUP fuzzer](4-fuzzing/lec43-powerup_ICST_2023-v2.pptx) [[pdf]](4-fuzzing/lec43-powerup_ICST_2023-v2.pdf)
 
-- Homework 6: Automated testing of grep by applying AFL++ 
+- Homework 5: Automated testing of grep by applying AFL++ 
 
 ### Part V: Automated Test Generation: Concolic Testing (aka., Dynamic Symbolic Execution))
 - Nov 25: [Automated SW analysis for high reliability: a Concolic testing approach](5-concolic-testing/lec31-concolic-v6.pptx) [[pdf]](5-concolic-testing/lec31-concolic-v6.pdf)
@@ -188,7 +188,7 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
 [Automated unit testing](5-concolic-testing/lec36.automated_unit_testing-v2.pptx) 
 [[pdf]](5-concolic-testing/lec36.automated_unit_testing-v2.pdf)
 
-- Homework 7: Automated testing of TCAS by applying CROWN 
+- Homework 6: Automated testing of TCAS by applying CROWN 
 
 - Dec 9: [Unit-level concolic testing: Busybox ls example](5-concolic-testing/lec37-ls-unit-testing-v4.pptx) [[pdf]](5-concolic-testing/lec37-ls-unit-testing-v4.pdf)
 
