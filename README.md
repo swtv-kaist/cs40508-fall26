@@ -182,9 +182,7 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
   - [SMT-competition 2022](https://smt-comp.github.io/2022/)
   - [CS402 Intro to Logic (Predicate Calculus - Semantics)](https://swtv.kaist.ac.kr/courses/CS402-2013)
 --->
-- Nov 30: Automated Unit Testing
-  
-- Dec  2: [System-level concolic testing: Busybox application examples through CROWN](5-concolic-testing/lec35-printf-grep-vi-system-testing-v3.pptx) [[pdf]](5-concolic-testing/lec35-printf-grep-vi-system-testing-v3.pdf)
+- Nov 30: [System-level concolic testing: Busybox application examples through CROWN](5-concolic-testing/lec35-printf-grep-vi-system-testing-v3.pptx) [[pdf]](5-concolic-testing/lec35-printf-grep-vi-system-testing-v3.pdf)
 
 
 [Automated unit testing](5-concolic-testing/lec36.automated_unit_testing-v2.pptx) 
@@ -192,11 +190,15 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
 
 - Homework 6: Automated testing of TCAS by applying CROWN 
 
-- Dec 7: [Unit-level concolic testing: Busybox ls example](5-concolic-testing/lec37-ls-unit-testing-v4.pptx) [[pdf]](5-concolic-testing/lec37-ls-unit-testing-v4.pdf)
+- Dec 2: [Unit-level concolic testing: Busybox ls example](5-concolic-testing/lec37-ls-unit-testing-v4.pptx) [[pdf]](5-concolic-testing/lec37-ls-unit-testing-v4.pdf)
 
   - [Automated Unit Testing of Large Industrial Embedded Software using Concolic Testing](5-concolic-testing/lec38-conbol.pptx) [[pdf]](5-concolic-testing/lec38-conbol.pdf)  [ASE'13 paper] [[Movie (40 min)]](https://drive.google.com/file/d/10DaVUtSZGJiHhHKe-abez7C3XuFQxoBx/view?usp=share_link)
   
   - [Concolic Testing for High Test Coverage and Reduced Human Effort in Automotive Industry](5-concolic-testing/lec39-ICSE19-MAIST-rev18.pptx) [[pdf]](5-concolic-testing/lec39-ICSE19-MAIST-rev18.pdf)  [ICSE'19 paper] [[Movie (35min)]](https://drive.google.com/file/d/1G2j92qvfJBkPvIiBIklYE2EWjadEYIiW/view?usp=share_link)
+
+- Dec 7: Automated Unit Testing
+  - Extended Unit Testing
+  - Synthesizing System Test from Unit Tests
 
 - Dec 9: Q&A for the final exam
 
