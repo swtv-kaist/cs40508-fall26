@@ -140,19 +140,19 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
 
 - **Oct 28 (Wed) 10:30-11:45 : Midterm exam (closed book)**
 
-- Nov 2, 4: [LLVM pass](3-clang-llvm/lec13-llvm-pass-v4.pptx) [[pdf]](3-clang-llvm/lec13-llvm-pass-v4.pdf), [Clang vs LLVM IR](3-clang-llvm/lec14-clang-vs-llvm-v2.pptx) [[pdf]](3-clang-llvm/lec14-clang-vs-llvm-v2.pdf)
+- Nov 2: [LLVM pass](3-clang-llvm/lec13-llvm-pass-v4.pptx) [[pdf]](3-clang-llvm/lec13-llvm-pass-v4.pdf), [Clang vs LLVM IR](3-clang-llvm/lec14-clang-vs-llvm-v2.pptx) [[pdf]](3-clang-llvm/lec14-clang-vs-llvm-v2.pdf)
   - [Template code for LLVM pass (including a complete intwrite example)](3-clang-llvm/code/llvm/intwrite_llvm.tar.gz)
 
 - [Homework 4: kcov coverage tool for LLVM IR (due Nov 12)](https://klms.kaist.ac.kr/mod/assign/view.php?id=1302376)
 
-- Nov 9: [Automated Bug Detection through Static Analysis](3-clang-llvm/lec15-coverity-v2.pptx) [[pdf]](3-clang-llvm/lec15-coverity-v2.pdf)
+- Nov 4: [Automated Bug Detection through Static Analysis](3-clang-llvm/lec15-coverity-v2.pptx) [[pdf]](3-clang-llvm/lec15-coverity-v2.pdf)
 
 ### Part IV: Automated Test Generation: Fuzzing 
-- Nov 11, 16: [Modern fuzzing technique overview (i.e., coverage-guided automated greybox testing)](4-fuzzing/lec41-intro-to-afl++-v2.pptx) [[pdf]](4-fuzzing/lec41-intro-to-afl++-v2.pdf) 
+- Nov 9, 11: [Modern fuzzing technique overview (i.e., coverage-guided automated greybox testing)](4-fuzzing/lec41-intro-to-afl++-v2.pptx) [[pdf]](4-fuzzing/lec41-intro-to-afl++-v2.pdf) 
   - [The fuzzing book online class](https://www.fuzzingbook.org/)
   - [OSS Fuzz](https://github.com/google/oss-fuzz)
   
-- Nov 18: [AFL++ (american fuzzy lop) fuzzer tutorial](4-fuzzing/lec42-fuzzing_with_afl++-v3.pptx) [[pdf]](4-fuzzing/lec42-fuzzing_with_afl++-v3.pdf)
+- Nov 16, 18: [AFL++ (american fuzzy lop) fuzzer tutorial](4-fuzzing/lec42-fuzzing_with_afl++-v3.pptx) [[pdf]](4-fuzzing/lec42-fuzzing_with_afl++-v3.pdf)
   - [AFL++](https://github.com/AFLplusplus/AFLplusplus)
   - [AFL++ document](https://github.com/AFLplusplus/AFLplusplus/tree/stable/docs)
 
