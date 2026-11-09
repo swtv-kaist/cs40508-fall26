@@ -148,30 +148,30 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
 - Nov 4: [Automated Bug Detection through Static Analysis](3-clang-llvm/lec15-coverity-v2.pptx) [[pdf]](3-clang-llvm/lec15-coverity-v2.pdf)
 
 ### Part IV: Automated Test Generation: Fuzzing 
-- Nov 9, 11: [Modern fuzzing technique overview (i.e., coverage-guided automated greybox testing)](4-fuzzing/lec41-intro-to-afl++-v2.pptx) [[pdf]](4-fuzzing/lec41-intro-to-afl++-v2.pdf) 
+- Nov 9: [Modern fuzzing technique overview (i.e., coverage-guided automated greybox testing)](4-fuzzing/lec41-intro-to-afl++-v2.pptx) [[pdf]](4-fuzzing/lec41-intro-to-afl++-v2.pdf) 
   - [The fuzzing book online class](https://www.fuzzingbook.org/)
   - [OSS Fuzz](https://github.com/google/oss-fuzz)
   
-- Nov 16, 18: [AFL++ (american fuzzy lop) fuzzer tutorial](4-fuzzing/lec42-fuzzing_with_afl++-v3.pptx) [[pdf]](4-fuzzing/lec42-fuzzing_with_afl++-v3.pdf)
+- Nov 11: [AFL++ (american fuzzy lop) fuzzer tutorial](4-fuzzing/lec42-fuzzing_with_afl++-v3.pptx) [[pdf]](4-fuzzing/lec42-fuzzing_with_afl++-v3.pdf)
   - [AFL++](https://github.com/AFLplusplus/AFLplusplus)
   - [AFL++ document](https://github.com/AFLplusplus/AFLplusplus/tree/stable/docs)
 
 <!-- - May 14 : [Advanced Issues on Fuzzing](4-fuzzing/lec40-greybox-fuzzing-v4.pptx) [[pdf]](4-fuzzing/lec42-fuzzing_with_afl++-v4.pdf) -->
 
-- Nov 23: [Case study of Fuzzing Application: POWERUP fuzzer](4-fuzzing/lec43-powerup_ICST_2023-v2.pptx) [[pdf]](4-fuzzing/lec43-powerup_ICST_2023-v2.pdf)
+- Nov 16: [Case study of Fuzzing Application: POWERUP fuzzer](4-fuzzing/lec43-powerup_ICST_2023-v2.pptx) [[pdf]](4-fuzzing/lec43-powerup_ICST_2023-v2.pdf)
 
 - Homework 5: Automated testing of grep by applying AFL++ 
 
 ### Part V: Automated Test Generation: Concolic Testing (aka., Dynamic Symbolic Execution))
-- Nov 25: [Automated SW analysis for high reliability: a Concolic testing approach](5-concolic-testing/lec31-concolic-v6.pptx) [[pdf]](5-concolic-testing/lec31-concolic-v6.pdf)
+- Nov 18: [Automated SW analysis for high reliability: a Concolic testing approach](5-concolic-testing/lec31-concolic-v6.pptx) [[pdf]](5-concolic-testing/lec31-concolic-v6.pdf)
   - [Industrial Application of Concolic Testing on Embedded Software: Case Studies [ICSE'12 paper]](5-concolic-testing/icst-2012-slp-busybox-ls.pdf)
   <!--- [lec31-concolic-video-part2.mp4](https://drive.google.com/file/d/1XC68_O88FTVCQN_CZs4g0DM6O0OF8xyQ/view?usp=sharing)
   --->
 
-- Nov 30: [CROWN tutorial](5-concolic-testing/lec32-crown_tutorial-v3.pptx) [[pdf]](5-concolic-testing/lec32-crown_tutorial-v3.pdf)
+- Nov 23: [CROWN tutorial](5-concolic-testing/lec32-crown_tutorial-v3.pptx) [[pdf]](5-concolic-testing/lec32-crown_tutorial-v3.pdf)
   - [tutorial-examples](5-concolic-testing/code/tutorial-examples.zip)
 
-- Dec 2: [CROWN Examples](5-concolic-testing/lec33-crown-Examples-v2.pptx) [[pdf]](5-concolic-testing/lec33-crown-Examples-v2.pdf),  [Example: Concolic testing a circular queue](5-concolic-testing/lec34-sym-exec-examples-v2.pptx)  [[pdf]](5-concolic-testing/lec34-sym-exec-examples-v2.pdf)
+- Nov 25: [CROWN Examples](5-concolic-testing/lec33-crown-Examples-v2.pptx) [[pdf]](5-concolic-testing/lec33-crown-Examples-v2.pdf),  [Example: Concolic testing a circular queue](5-concolic-testing/lec34-sym-exec-examples-v2.pptx)  [[pdf]](5-concolic-testing/lec34-sym-exec-examples-v2.pdf)
   - [crown_examples.zip](5-concolic-testing/code/crown_examples.zip)
 
 
@@ -181,8 +181,9 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
   - [SMT-competition 2022](https://smt-comp.github.io/2022/)
   - [CS402 Intro to Logic (Predicate Calculus - Semantics)](https://swtv.kaist.ac.kr/courses/CS402-2013)
 --->
-
-- Dec  7: [System-level concolic testing: Busybox application examples through CROWN](5-concolic-testing/lec35-printf-grep-vi-system-testing-v3.pptx) [[pdf]](5-concolic-testing/lec35-printf-grep-vi-system-testing-v3.pdf)
+- Nov 30: Automated Unit Testing
+  
+- Dec  2: [System-level concolic testing: Busybox application examples through CROWN](5-concolic-testing/lec35-printf-grep-vi-system-testing-v3.pptx) [[pdf]](5-concolic-testing/lec35-printf-grep-vi-system-testing-v3.pdf)
 
 
 [Automated unit testing](5-concolic-testing/lec36.automated_unit_testing-v2.pptx) 
@@ -190,12 +191,13 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
 
 - Homework 6: Automated testing of TCAS by applying CROWN 
 
-- Dec 9: [Unit-level concolic testing: Busybox ls example](5-concolic-testing/lec37-ls-unit-testing-v4.pptx) [[pdf]](5-concolic-testing/lec37-ls-unit-testing-v4.pdf)
+- Dec 7: [Unit-level concolic testing: Busybox ls example](5-concolic-testing/lec37-ls-unit-testing-v4.pptx) [[pdf]](5-concolic-testing/lec37-ls-unit-testing-v4.pdf)
 
   - [Automated Unit Testing of Large Industrial Embedded Software using Concolic Testing](5-concolic-testing/lec38-conbol.pptx) [[pdf]](5-concolic-testing/lec38-conbol.pdf)  [ASE'13 paper] [[Movie (40 min)]](https://drive.google.com/file/d/10DaVUtSZGJiHhHKe-abez7C3XuFQxoBx/view?usp=share_link)
   
   - [Concolic Testing for High Test Coverage and Reduced Human Effort in Automotive Industry](5-concolic-testing/lec39-ICSE19-MAIST-rev18.pptx) [[pdf]](5-concolic-testing/lec39-ICSE19-MAIST-rev18.pdf)  [ICSE'19 paper] [[Movie (35min)]](https://drive.google.com/file/d/1G2j92qvfJBkPvIiBIklYE2EWjadEYIiW/view?usp=share_link)
 
+- Dec 9: Q&A for the final exam
 
 <!---
 ### Part IV: Testing/Verification Engine - SAT/SMT Solver
@@ -204,5 +206,5 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
   - The SuDoku Puzzle as a Satisfiability Problem
 --->
 
-**Dec 16th: Final exam (closed book)** 
+**Dec 14th: Final exam (closed book)** 
 
