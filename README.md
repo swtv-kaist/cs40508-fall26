@@ -1,6 +1,7 @@
 # KAIST CS40508 Dynamic Analysis of Software Source Code (소프트웨어 소스 코드 기반 동적 분석) Fall'26
 
 ## Announcement
+- Nov 10: A class on Nov 16 will start at 11:00 AM
 - Nov 9: We will have a final exam on Dec 14 (Mon), not Dec 16 (Wed)
 - Oct 13: Oct 14 class will start at 10:40 am (10 min delayed)
 - Oct 7: We will have a midterm exam on Oct 28. Instead, we will have a face-to-face lecture on Oct 21 during the midterm week. 
