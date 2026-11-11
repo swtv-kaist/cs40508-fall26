@@ -150,7 +150,7 @@ IEEE Trans. on Software Engineering vol. 35, no. 3, pp. 407-429, May-June 2009.
 - Nov 4: [Automated Bug Detection through Static Analysis](3-clang-llvm/lec15-coverity-v2.pptx) [[pdf]](3-clang-llvm/lec15-coverity-v2.pdf)
 
 ### Part IV: Automated Test Generation: Fuzzing 
-- Nov 9: [Modern fuzzing technique overview (i.e., coverage-guided automated greybox testing)](4-fuzzing/lec41-intro-to-afl++-v2.pptx) [[pdf]](4-fuzzing/lec41-intro-to-afl++-v2.pdf) 
+- Nov 9: [Modern fuzzing technique overview (i.e., coverage-guided automated greybox testing)](4-fuzzing/lec41-intro-to-afl++-v3.pptx) [[pdf]](4-fuzzing/lec41-intro-to-afl++-v3.pdf) 
   - [The fuzzing book online class](https://www.fuzzingbook.org/)
   - [OSS Fuzz](https://github.com/google/oss-fuzz)
   
